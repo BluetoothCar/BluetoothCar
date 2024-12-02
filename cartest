@@ -32,8 +32,6 @@ void setup() {
   pinMode(Lpwm_pin, OUTPUT);
   pinMode(Rpwm_pin, OUTPUT);
 
-  // Initial setup message
-  Serial.println("Robot ready to receive commands.");
 }
 
 void loop() {
